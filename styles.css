@@ -21,13 +21,13 @@ body {
 .transparent-box {
   background-color: rgba(0, 0, 0, 0.5); /* White background, 30% opacity */
   padding: 12px;
-  border-radius: 4px; /* Optional: Rounded corners */
+  border-radius: 8px; /* Optional: Rounded corners */
   width: fit-content;
 }
 
 .transparent-box p {
   color: white; /* Text color */
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .changepage {
