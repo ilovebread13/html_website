@@ -26,7 +26,7 @@ body {
   font-size: 12px;
 }
 
-div.changepage {
+.changepage {
   text-align: center;
   color: #2ecc71; /* Green text */
   text-decoration: none; /* Remove default underline */
@@ -35,7 +35,7 @@ div.changepage {
   transition: border-color 0.3s ease; /* Smooth transition */
 }
 
-div.changepage:hover {
+.changepage:hover {
   border-bottom: 2px solid #2ecc71; /* Underline appears on hover */
 }
   
