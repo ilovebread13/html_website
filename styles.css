@@ -5,13 +5,19 @@ div.center {
 }
 .homepage {
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 30px;
   padding: 1px;
   margin: 1px;
   color: white;
   border-radius: 12px;
   
 }
+
+.homepage p {
+  color: white;
+  font-size: 30px;
+}
+
+
 body {
   background-image: url('background.png');
   background-color: #386AC1; 
