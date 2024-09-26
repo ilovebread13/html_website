@@ -6,9 +6,9 @@ div.center {
 div.homepage {
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 55px;
-  padding: 5px;
+  padding: 1px;
   color: white;
-  width: fit-content;
+  
   
 }
 body {
