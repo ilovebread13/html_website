@@ -6,10 +6,10 @@ div.center {
 div.homepage {
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 30px;
-  padding: 0.5px;
+  padding: 12px;
   margin: 0.5px;
   color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   
 }
 body {
@@ -21,7 +21,7 @@ body {
 .transparent-box {
   background-color: rgba(0, 0, 0, 0.5); /* White background, 30% opacity */
   padding: 12px;
-  border-radius: 8px; /* Optional: Rounded corners */
+  border-radius: 12px; /* Optional: Rounded corners */
   width: fit-content;
 }
 
