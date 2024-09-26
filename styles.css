@@ -3,14 +3,23 @@ div.center {
   text-align: center;
   
 }
-
 div.homepage {
 
   font-size: 100px;
   
 }
-
 body {
   background-image: url('road.jpg');
 }
-  
+
+.transparent-box {
+  background-color: rgba(0, 0, 0, 0.3); /* White background, 30% opacity */
+  padding: 15px;
+  border-radius: 4px; /* Optional: Rounded corners */
+  width: fit-content;
+}
+
+.transparent-box p {
+  color: white; /* Text color */
+  font-size: 18px;
+}
