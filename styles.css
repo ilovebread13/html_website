@@ -14,7 +14,7 @@ body {
 
 .transparent-box {
   background-color: rgba(0, 0, 0, 0.3); /* White background, 30% opacity */
-  padding: 10px;
+  padding: 12px;
   border-radius: 4px; /* Optional: Rounded corners */
   width: fit-content;
 }
