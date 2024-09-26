@@ -27,6 +27,7 @@ body {
 }
 
 div.changepage {
+  text-align: center;
   color: #2ecc71; /* Green text */
   text-decoration: none; /* Remove default underline */
   border-bottom: 2px solid transparent; /* Add invisible border */
