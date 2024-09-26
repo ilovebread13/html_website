@@ -14,12 +14,12 @@ body {
 
 .transparent-box {
   background-color: rgba(0, 0, 0, 0.3); /* White background, 30% opacity */
-  padding: 15px;
+  padding: 10px;
   border-radius: 4px; /* Optional: Rounded corners */
   width: fit-content;
 }
 
 .transparent-box p {
   color: white; /* Text color */
-  font-size: 18px;
+  font-size: 12px;
 }
