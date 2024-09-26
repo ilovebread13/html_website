@@ -6,15 +6,10 @@ div.center {
 .homepage {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 12px;
-
+  font-size: 25px;
   color: white;
   border-radius: 12px;
   
-}
-
-.homepage p {
-  color: white;
-  font-size: 30px;
 }
 
 
