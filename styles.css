@@ -25,3 +25,16 @@ body {
   color: white; /* Text color */
   font-size: 12px;
 }
+
+div.changepage {
+  color: #2ecc71; /* Green text */
+  text-decoration: none; /* Remove default underline */
+  border-bottom: 2px solid transparent; /* Add invisible border */
+  padding-bottom: 2px; /* Make space for the border */
+  transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+div.changepage:hover {
+  border-bottom: 2px solid #2ecc71; /* Underline appears on hover */
+}
+  
