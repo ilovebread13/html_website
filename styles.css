@@ -4,10 +4,11 @@ div.center {
   
 }
 div.homepage {
-
-  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 55px;
   padding: 10px;
-  color: white
+  color: white;
+  width: fit-content;
   
 }
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .transparent-box {
-  background-color: rgba(0, 0, 0, 0.3); /* White background, 30% opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* White background, 30% opacity */
   padding: 12px;
   border-radius: 4px; /* Optional: Rounded corners */
   width: fit-content;
