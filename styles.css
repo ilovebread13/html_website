@@ -5,10 +5,10 @@ div.center {
 }
 .homepage {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 12px;
+  padding: 16px;
   font-size: 25px;
   color: white;
-  border-radius: 12px;
+  border-radius: 0px;
   
 }
 
