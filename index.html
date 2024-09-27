@@ -46,33 +46,20 @@
 <br>
 <br> 
   
-<button id="muteButton">Mute Music</button>
+ <button id="muteButton" onclick="stopMusic()">Stop Music</button>
 
   <script>
-    const audio = document.getElementById('backgroundMusic');
-    const muteButton = document.getElementById('muteButton');
-
-    muteButton.addEventListener('click', function() {
-      if (audio.muted) {
-        audio.muted = false;
-        muteButton.textContent = 'Mute Music';
-        muteButton.classList.remove('muted');
-      } else {
-        audio.muted = true;
-        muteButton.textContent = 'Unmute Music';
-        muteButton.classList.add('muted');
-      }
-    });
+    // JavaScript function to stop the music
+    function stopMusic() {
+      var music = document.getElementById("backgroundMusic");
+      music.pause(); // Stops the music
+    }
   </script>
   
 <br>
 <br>
 <br>
 <br>
-
-
-
-
   
 <div class=transparent-box> 
   <a href="page1.html" class="changepage" > 
