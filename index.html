@@ -7,6 +7,18 @@
   <title>
     Homepage
   </title>
+  <style>
+    #muteButton {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #muteButton.muted {
+      background-color: red;
+    }
+  </style>
 </head>
 
 <body>
@@ -23,13 +35,32 @@
 </p>
 
 <div class="center">
-  <img src="honoredone.gif">
+  <img src="honoredone.gif" height="300" width="200">
 </div>
   
 <audio loop autoplay>
   <source src=background.mp3>
   This is the honored one's theme.
 </audio>
+  
+<button id="muteButton">Mute Music</button>
+
+  <script>
+    const audio = document.getElementById('backgroundMusic');
+    const muteButton = document.getElementById('muteButton');
+
+    muteButton.addEventListener('click', function() {
+      if (audio.muted) {
+        audio.muted = false;
+        muteButton.textContent = 'Mute Music';
+        muteButton.classList.remove('muted');
+      } else {
+        audio.muted = true;
+        muteButton.textContent = 'Unmute Music';
+        muteButton.classList.add('muted');
+      }
+    });
+  </script>
   
 <br>
 <br>
