@@ -5,10 +5,10 @@ div.center {
 }
 .homepage {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 16px;
+  box-sizing: border-box;
   font-size: 25px;
   color: white;
-  border-radius: 0px;
+ 
   
 }
 
@@ -17,6 +17,7 @@ body {
   background-image: url('background.png');
   background-color: #386AC1; 
   font-family: verdana;
+  margin: 0;
 }
 
 .transparent-box {
