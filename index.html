@@ -17,6 +17,35 @@
             width: 100%;
             bottom: 0;
     }
+
+    #playPauseBtn {
+            background-color: #4CAF50; /* Green background */
+            border: none;              /* Remove borders */
+            color: white;              /* White text */
+            padding: 15px 30px;        /* Padding around the text */
+            text-align: center;        /* Center the text */
+            text-decoration: none;     /* Remove underline */
+            display: inline-block;     /* Keep it inline */
+            font-size: 20px;           /* Increase font size */
+            margin: 10px;              /* Space around button */
+            cursor: pointer;           /* Pointer cursor on hover */
+            border-radius: 50px;       /* Rounded button */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Add shadow */
+            transition: all 0.3s ease; /* Smooth transitions */
+        }
+
+        /* Add hover effect */
+        #playPauseBtn:hover {
+            background-color: #45a049;  /* Darker green on hover */
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+            transform: translateY(-5px); /* Lift the button on hover */
+        }
+
+        /* Active state for button click */
+        #playPauseBtn:active {
+            transform: translateY(2px); /* Button sinks slightly when clicked */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Reduce shadow on click */
+        }
   </style>
 </head>
 
