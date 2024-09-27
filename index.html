@@ -46,16 +46,24 @@
 <br>
 <br> 
   
- <button id="muteButton" onclick="stopMusic()">Stop Music</button>
+<button id="playPauseBtn">Play</button>
 
-  <script>
-    // JavaScript function to stop the music
-    function stopMusic() {
-      var music = document.getElementById("backgroundMusic");
-      music.pause(); // Stops the music
-    }
-  </script>
-  
+    <script>
+        // Get audio element and button
+        const audio = document.getElementById("backgroundMusic");
+        const playPauseBtn = document.getElementById("playPauseBtn");
+
+        // Add event listener to button to toggle play/pause
+        playPauseBtn.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play(); // Play audio
+                playPauseBtn.textContent = "Pause"; // Change button text
+            } else {
+                audio.pause(); // Pause audio
+                playPauseBtn.textContent = "Play"; // Change button text
+            }
+        });
+    </script>
 <br>
 <br>
 <br>
