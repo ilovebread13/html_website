@@ -22,14 +22,14 @@ body {
   background-color: rgba(0, 0, 0, 0.5); /* White background, 30% opacity */
   padding: 12px;
   border-radius: 12px; /* Optional: Rounded corners */
-  width: fit-content;
+  text-align: center;
 
 }
 
 .transparent-box p {
   color: white; /* Text color */
   font-size: 10px;
-  text-align: center;
+ 
 }
 
 .changepage {
